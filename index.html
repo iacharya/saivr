@@ -8,29 +8,21 @@
 
 <a-assets>
 
-<video id="vid" loop="false" src="video2.sameformat.mp4" playsinline="" webkit-playsinline=""></video>
+<video id="vid" loop="false" src="sai.mp4" playsinline="" webkit-playsinline=""></video>
 <a-asset-item id="vrobj" src="newlogo.obj"></a-asset-item>
 <a-asset-item id="vrmtl" src="newlogo.mtl"></a-asset-item>
 </a-assets>
-
-             
   
-  
-
+<a-entity obj-model="mtl:newlogo.mtl;obj:newlogo.obj" rotation="0 0 0" position="-2.906 3.425 2.946">
+<a-animation attribute="position" from="-2.906 3.425 2.946" to="-2.906 3.425 -12.946" repeat="0" dur="20000"></a-animation>
+</a-entity>
 
 <a-entity obj-model="mtl:newlogo.mtl;obj:newlogo.obj" rotation="0 0 0" position="-2.906 3.425 2.946">
-  <a-animation attribute="position" from="-2.906 3.425 2.946" to="-2.906 3.425 -12.946" repeat="0" dur="20000"></a-animation>
-  </a-entity>
-
-<a-entity obj-model="mtl:newlogo.mtl;obj:newlogo.obj" rotation="0 0 0" position="-2.906 3.425 2.946">
-  <a-animation attribute="position" from="-500.906 215.425 576.946" to="-2.906 3.425 -12.946" repeat="21" dur="30000"></a-animation>
+<a-animation attribute="position" from="-500.906 215.425 576.946" to="-2.906 3.425 -12.946" repeat="21" dur="30000"></a-animation>
 </a-entity>
  
- <a-image src="stnsai.png" position="-30 -3 -15" scale="20 41 20"  rotation="0 45 0"></a-image>
-
-
-
-<a-video src="video2.sameformat.mp4" height="7" width="9" position="-2 -1 -10"></a-video>
+<a-image src="stnsai.png" position="-30 -3 -15" scale="20 41 20"  rotation="0 45 0"></a-image>
+<a-video src="sai.mp4" height="7" width="9" position="-2 -1 -10"></a-video>
                                                                    
 <a-sky src="5skysai.jpg"></a-sky>
 
